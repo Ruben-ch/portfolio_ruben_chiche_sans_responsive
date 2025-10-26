@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta charset="UTF-8">
+<title>Portfolio - CHICHE Ruben | DB Cargo France</title>
+
+<meta name="keywords" content="Portfolio,Alternance,mooc,pontoise,BTS,BTS SIO,BTS SIO SISR,SIO,SISR,BTSSIO,loic,ledoher,le doher,doher,javascript,web design,web developement,cyber-sécurité,Réseau,Reseau,Sécurité,securite,informatique,Informatique,SecNumAcadémie,DRSD" />
+
+<meta name="description" content="Portfolio - LE DOHER Loïc (BTS SIO SISR). Bienvenue sur mon PortFolio, vous pourrez y retrouver l'ensemble de mes compétences et réalisations professionnelles. "  />
+
+<meta name="author" content="LE DOHER loïc." />
+
+<link rel="icon" href="images/logo-web-component.webp">
+
+<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/Header.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/Footer.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/Veille_technologique.css" media="all">
+
+<!-- Header icons -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<!-- Footer -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- jquery -->
+<script src="js/jquery-3.7.1.js"></script>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+<div class="container">    
+    <div class="navigation">
+        <div class="menu-toggle"></div>
+            <ul class="list">
+                <li class="list-item " style="--color:#67B3E4"><a href="index.html">
+                    <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                    <span class="text">Accueil</span></a></li>
+                <li class="list-item " style="--color:#f44336"><a href="dbcargo.html">
+                    <span class="icon"><ion-icon name="briefcase-outline"></ion-icon></span>
+                    <span class="text">Entreprise</span></a></li>
+                <li class="list-item " style="--color:#ffa117"><a href="realisations_pro.html">
+                    <span class="icon"><ion-icon name="layers-outline"></ion-icon></span>
+                    <span class="text">Réalisations Professionnelles</span></a></li>
+                <li class="list-item active" style="--color:#2196f3"><a href="veille_technologique.html">
+                    <span class="icon"><ion-icon name="globe-outline"></ion-icon></span>
+                    <span class="text">Veille Technologique</span></a></li>
+                <li class="list-item " style="--color:#b145e9"><a href="bilan.html">
+                    <span class="icon"><ion-icon name="accessibility-outline"></ion-icon></span>
+                    <span class="text">Bilan</span></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<section class="Titre">
+    <h1 class="Titre_pro">Veille Technologique</h1>
+    <hr id="hr1">
+</section>
+
+<section class="description_veille" id="description_veille">
+    <br>
+    <h2 class="titres"><strong> Ma veille technologique et mes outils </strong></h2>
+    <p>
+        Pour effectuer ma veille technologique, j’utilise « Google Alertes », qui me crée des alertes hebdomadaires. <br>
+        Cet outil me permet de suivre les actualités et innovations dans les domaines technologiques que je souhaite. <br>
+        J’ai ajouté à celui-ci différentes sources telles que : ANSSI, Le Monde Informatique, et ZDNet.
+    </p>
+
+    <p>Pour ma veille technologique, j'ai choisi le sujet suivant : <strong>Les Self-Healing Networks</strong></p>
+
+    <br><br>
+    <hr id="hr2">
+
+    <h2 id="block"><strong> Les Self-Healing Networks, c’est quoi ? </strong></h2>
+
+    <p id="chain">
+        Les réseaux auto-réparateurs, ou <em>Self-Healing Networks</em>, sont des infrastructures capables de détecter et corriger automatiquement les pannes ou les défaillances sans intervention humaine. <br><br>
+        Grâce à l’intelligence artificielle, à l’automatisation et à l’analyse en temps réel, ces réseaux peuvent isoler un problème, réacheminer le trafic et maintenir la connectivité, assurant ainsi une disponibilité continue du service. <br><br>
+        Ce concept est de plus en plus présent dans les architectures modernes comme les réseaux 5G, les data centers et l’Internet des Objets (IoT), où la fiabilité est cruciale. <br>
+        L’objectif principal est de réduire les interruptions de service, d’améliorer la résilience des infrastructures et d’optimiser la gestion des ressources réseau.
+    </p>
+
+    <br><br>
+</section>
+
+<section>
+    <hr id="hr2">
+    <h2 id="block"><strong> Mes articles </strong></h2>
+</section>
+
+<section id="filtre">
+    <div class="search__container">
+        <form action="veille_technologique.html#filtre" method="post">
+            <input class="search__input" type="text" name="search_query" placeholder="RECHERCHE PAR MOTS CLES">
+
+            <form action="veille_technologique.html#filtre" method="post" class="form">
+                <select name="filtre">
+                    <option selected value="trier">Trier par</option>
+                    <option value="auteur">Auteur</option>
+                    <option value="date">Date</option>
+                    <option value="journal">Journal</option>
+                    <option value="note">Note</option>
+                </select>
+                <input type="submit" value="Rechercher" class="menu_button" />
+            </form>
+        </form>
+    </div>
+</section>
+
+<div>
+    <main class="grid">
+        <article>
+            <img src="images/Veille_technologique/Article/0_-XiBOWDRmerkLn_V.jpg" alt="image_article">
+            <div class="text">
+            <h3>Self-Healing Network Infrastructure : le futur de la gestion réseau autonome</h3> <br>
+                <p>
+            Une étude récente montre que les infrastructures de réseaux auto-réparateurs permettent de réduire
+            considérablement le temps moyen de réparation (MTTR) tout en atteignant une disponibilité proche de 99,999 %.
+            Grâce à l’IA et à l’analyse prédictive, ces réseaux détectent et corrigent automatiquement les pannes sans
+            intervention humaine.
+            </p>    <br>
+            <hr>
+            <address>
+             2025-01-18 &ensp;|&ensp;
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star-half-full checked"></span>
+             <br>
+            IAEME Journal &ensp;|&ensp; IAEME.com <br>
+            </address>
+        <hr>
+        <a href="https://iaeme.com/Home/article_id/IJRCAIT_08_01_039" class="btn btn-primary btn-block" target="_blank" rel="noreferrer">Plus d'informations</a>
+    </div>
+</article>
+
+<article>
+    <img src="images/Veille_technologique/Article/1_429_768_1_90__Videos_joelbrown_jb_AI_in_Networks_7ff4260b-9b3b-42ad-beae-1f2008594b3b.png" alt="image_article">
+    <div class="text">
+        <h3>Transformer-Driven Fault Detection : l’IA au service des réseaux auto-réparateurs</h3> <br>
+        <p>
+            Des chercheurs ont développé un modèle basé sur les réseaux de neurones Transformer pour améliorer la détection
+            et la correction des pannes dans les self-healing networks. Ce cadre combine IA et apprentissage profond pour
+            une reprise adaptative et quasi instantanée du réseau.
+        </p> <br>
+        <hr>
+        <address>
+            2025-07-09 &ensp;|&ensp;
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star-half-full checked"></span>
+            <br>
+            MDPI Research &ensp;|&ensp; mdpi.com <br>
+        </address>
+        <hr>
+        <a href="https://www.mdpi.com/2504-4990/7/3/67" class="btn btn-primary btn-block" target="_blank" rel="noreferrer">Plus d'informations</a>
+    </div>
+</article>
+
+<article>
+    <img src="images/Veille_technologique/Article/Cloud AI.webp" alt="image_article">
+    <div class="text">
+        <h3>Self-Healing Networks et IoT : prédire les pannes grâce à l’intelligence artificielle</h3> <br>
+        <p>
+            Dans les écosystèmes IoT modernes, les self-healing networks utilisent des algorithmes d’apprentissage
+            automatique pour identifier les anomalies et rétablir automatiquement la connectivité. Cette approche améliore
+            la fiabilité et diminue les coûts de maintenance.
+        </p> <br>
+        <hr>
+        <address>
+            2025-05-03 &ensp;|&ensp;
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <br>
+            IJSRET &ensp;|&ensp; ijsret.com <br>
+        </address>
+        <hr>
+        <a href="https://ijsret.com/2025/05/03/self-healing-networks-with-ai-based-fault-prediction-in-iot-ecosystems/" class="btn btn-primary btn-block" target="_blank" rel="noreferrer">Plus d'informations</a>
+    </div>
+</article>
+
+    <article>
+    <img src="images/Veille_technologique/Article/self-healing-5g-brasil_f85686-e1752649741941.webp" alt="image_article">
+    <div class="text">
+        <h3>Un modèle prédictif auto-réparateur pour les systèmes de production connectés</h3> <br>
+        <p>
+            En combinant intelligence artificielle et IoT, un modèle de maintenance prédictive permet aux lignes de
+            production d’anticiper les défaillances et de s’auto-corriger. Cette approche de self-healing réduit les temps
+            d’arrêt et améliore la performance industrielle.
+        </p> <br>
+        <hr>
+        <address>
+            2025-02-26 &ensp;|&ensp;
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star-half-full checked"></span>
+            <br>
+            MDPI Journals &ensp;|&ensp; mdpi.com <br>
+        </address>
+        <hr>
+        <a href="https://www.mdpi.com/2673-4591/97/1/6" class="btn btn-primary btn-block" target="_blank" rel="noreferrer">Plus d'informations</a>
+    </div>
+    </article>
+
+    <article>
+    <img src="images/Veille_technologique/Article/selfhealing-img.jpg" alt="image_article">
+    <div class="text">
+        <h3>Vers des réseaux 6G entièrement auto-réparateurs</h3> <br>
+        <p>
+            Les chercheurs en télécommunications travaillent sur des réseaux 6G capables de s’auto-optimiser et de se
+            réparer sans intervention humaine. En intégrant des algorithmes de machine learning et de contrôle distribué,
+            ces futurs réseaux pourraient détecter en temps réel les anomalies, réorienter le trafic et rétablir la
+            connectivité avant même qu’une panne ne soit perçue par l’utilisateur.
+        </p> <br>
+        <hr>
+        <address>
+            2025-09-21 &ensp;|&ensp;
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <br>
+            Network World &ensp;|&ensp; networkworld.com <br>
+        </address>
+        <hr>
+        <a href="https://www.networkworld.com/article/3712399/self-healing-6g-networks.html" class="btn btn-primary btn-block" target="_blank" rel="noreferrer">Plus d'informations</a>
+    </div>
+</article>
+
+
+    </main>
+</div>
+
+<script src="js/Scroll_Up.js"></script>
+<button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+
+<footer class="footer" id="footer">
+    <div class="inner">
+        <div class="column is-logo">
+            <div class="logo-info">
+                <div class="footer_text">CHICHE Ruben</div>
+                <span class="copyright">© 2022. All rights reserved.</span>
+            </div>
+        </div>
+        <div class="column is-nav">
+            <div class="column-title">Navigation</div>
+            <ul>
+                <li><a href="index.html" class="footer_a">Accueil</a></li>
+                <li><a href="dbcargo.html" class="footer_a">Mon entreprise</a></li>
+                <li><a href="veille_technologique.html" class="footer_a">Ma veille</a></li>
+            </ul>
+        </div>
+        <div class="column is-nav">
+            <div class="column-title">Contact</div>
+            <ul>
+                <li><a href="mailto:rubenjd06@gmail.com" class="footer_a"><i class="fa fa-envelope-open"></i> rubenjd06@gmail.com</a></li>
+                <li><a href="https://github.com/Ruben-ch" target="_blank" rel="noreferrer" class="footer_a"><i class="fa fa-github"></i> Mon GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/ruben-chiche-ab5a09355/" target="_blank" rel="noreferrer" class="footer_a"><i class="fa fa-linkedin"></i> Linkedin</a></li>
+            </ul>
+        </div>
+        <div class="column is-nav">
+            <div class="column-title">Informations</div>
+            <ul>
+                <li><a href="mentions_legales.html" class="footer_a">Mentions Légales</a></li>
+                <li><a href="index.html#" class="footer_a">Conditions d'utilisation</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<script src="js/Header.js"></script>
+<script src="js/MessageRetour.js"></script>
+</body>
+</html>

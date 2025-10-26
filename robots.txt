@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://loic-ledoher.fr/sitemap.xml
